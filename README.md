@@ -11,8 +11,8 @@
 
 #### Spuštění
 ```
-docker build . -t tda-spring
-docker run -p 8080:80 -v ${PWD}:/app tda-spring
+docker build . -t tda-springboot
+docker run -p 8080:80 -v ${PWD}:/app tda-springboot
 ```
 
 Aplikace bude přístupná na `http://127.0.0.1:8080`
