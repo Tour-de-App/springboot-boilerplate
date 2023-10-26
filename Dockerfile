@@ -11,4 +11,6 @@ RUN ./mvnw dependency:resolve
 
 COPY src ./src
 
+EXPOSE 80
+
 CMD ["./start.sh"]
